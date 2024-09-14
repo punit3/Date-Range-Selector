@@ -1,0 +1,166 @@
+.calendar {
+    display: flex;
+   
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .days-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    background: #f8f5ff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid #dddddd;
+    min-height: 200px;
+  }
+  
+  .day {
+    padding: 4px;
+    
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #b4b4b4;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+  }
+  
+  .selected {
+    background-color: #15aa7e;
+    color: white;
+  }
+  
+  .selected-range {
+    background-color: #15aa7e;
+    color: white;
+  }
+  
+  .weekend {
+    background-color: #e8e8e8;
+    /* color: #7a7a7a; */
+  }
+
+
+
+  .calendar-controls{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .date-range-picker {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 10px ;
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .calendar-container {
+    width: 50%;
+    border: 1px solid #dfdfdf;
+    padding: 10px 12px;
+    border-radius: 12px;
+    min-height: 270px;
+}
+
+
+.input-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    
+  }
+  
+  .date-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid ;
+  }
+  
+  .clear-button {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888; 
+  }
+
+  button.predefined-option {
+    padding: 4px 12px;
+    margin: 8px;
+    background: none;
+    border: 1px solid #1700f5;
+    font-size: 14px;
+    color: #1700f5;
+    border-radius: 12px;
+}
+.predefined-ranges {
+    display: flex;
+    justify-content: center;
+}
+
+.month-calendar {
+    color: #525252;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .date-range-picker {
+        flex-direction: column;
+    }
+
+    .calendar-container {
+        width: 100%;
+       
+    }
+
+    .range-container{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.range-container{
+    width: 50%;
+    margin: auto;
+}
+  
+
+.day-names-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px; 
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    padding: 6px 10px;
+  }
+  
+ 
+ 
+
+
+  
+  
