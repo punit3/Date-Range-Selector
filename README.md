@@ -70,14 +70,7 @@ This project is built using the [Mantine](https://mantine.dev/) library along wi
 - **Arrow Key Navigation**: Navigate through months using the arrow keys for a smoother experience.
 - **Predefined Date Ranges**: Click on the predefined buttons to quickly select common date ranges like "Last 7 days," "Next 7 days," and "Next 30 days."
 
-## Additional Information
 
-- For more details on the Mantine library, visit [Mantine Documentation](https://mantine.dev/docs/getting-started/).
-- For any issues or questions, please open an issue on the repository or contact the project maintainers.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
