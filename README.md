@@ -2,13 +2,19 @@
 
 ## Overview
 
-This project is built using the [Mantine](https://mantine.dev/) library along with Vite, React, and TypeScript. It showcases a Date Range Selector component that allows users to select a range between two dates.
+This project is built using the [Mantine](https://mantine.dev/) library along with Vite, React, and TypeScript. It showcases a Date Range Selector component that allows users to select a range between two dates and provides additional functionality for enhanced user experience.
+
+## Features
+
+- **Date Range Selector**: Allows users to select a range between two dates.
+- **Range Output**: Displays the selected range, including weekdays and weekend dates.
+- **Month Navigation**: Use arrow keys to move between months easily.
+- **Predefined Range Buttons**: Quickly select common date ranges such as:
+  - Last 7 days
+  - Next 7 days
+  - Next 30 days
 
 ## Setup Instructions
-
-### Prerequisites
-
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You can check if it's installed by running `node -v` and `npm -v` in your terminal.
 
 ### Getting Started
 
@@ -58,11 +64,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine. You
 
    This will start a local server to serve the production build, allowing you to test the final output before deployment.
 
-## Features
+## Usage
 
-- **Date Range Selector**: A component to select a range between two dates.
-- **React & TypeScript**: Leveraging React for UI and TypeScript for type safety.
-- **Mantine Integration**: Using Mantine components and styles.
+- **Date Range Selection**: Use the calendar UI to select the start and end dates. The component will display the selected range, including weekdays and weekends.
+- **Arrow Key Navigation**: Navigate through months using the arrow keys for a smoother experience.
+- **Predefined Date Ranges**: Click on the predefined buttons to quickly select common date ranges like "Last 7 days," "Next 7 days," and "Next 30 days."
 
 ## Additional Information
 
